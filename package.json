@@ -1,0 +1,40 @@
+{
+  "name": "czds-api",
+  "version": "1.0.0",
+  "description": "A CZDS (Centralized Zone Data Service) API Client for downloading zones",
+  "main": "index.js",
+  "scripts": {
+    "test": "node cli.js",
+    "docs": "jsdocs index.js"
+  },
+  "keywords": [
+    "czds",
+    "zone",
+    "dns",
+    "api",
+    "client"
+  ],
+  "author": "Lucas Fiegl",
+  "license": "ISC",
+  "dependencies": {
+    "base64url": "^3.0.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-google": "^0.11.0",
+    "jsdoc": "^3.5.5"
+  },
+  "eslintConfig": {
+    "extends": "google",
+    "rules": {},
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 8
+    }
+  }
+}
