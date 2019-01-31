@@ -1,6 +1,6 @@
 const CZDSClient = require('./index');
 const credentials = require('./credentials.json');
-const outdir = process.args[2] || './zones';
+const outdir = process.argv[2] || './zones';
 const client = new CZDSClient(credentials);
 
 client.getZoneList().then((zones) => zones.map(async (zone) => {

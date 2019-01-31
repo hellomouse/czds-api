@@ -1,6 +1,6 @@
 {
   "name": "czds-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CZDS (Centralized Zone Data Service) API Client for downloading zones",
   "main": "index.js",
   "scripts": {
